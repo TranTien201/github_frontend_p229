@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/jquery-jvectormap-2.0.5.css">
+    <link rel="stylesheet" href="/css/highcharts-white.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-main">
+    <div class="containerr">
+        <div class="navi">
+            <ul class="">
+                <a href="index.html" style="text-decoration: none;">
+                    <li style="margin: 0;border-bottom: 1px solid rgb(255 255 255 / 15%) ;">
+                        <span style="display: flex;" class="title"><i style="line-height: 45.488px;" class="fas fa-dumbbell"></i>
+                            <h2>P229 SHOP</h2>
+                        </span>
+                    </li>
+                </a>
+                <li>
+                    <a href="admin.html">
+                        <span class="title"><i class="fas fa-home"></i>Home page</span>
+                    </a>
+                </li>
+                <li>
+                    <span class="title subnavv"><i class="fas fa-shopping-cart"></i>Product<i style="margin-left: 100px;" class="fas fa-chevron-down"></i>
+                        <ul class="subnav2">
+                            <a href="admin_product.html">
+                                <li>Product </li>
+                            </a>
+                            <a href="product_details.html">
+                                <li>Product details</li>
+                            </a>
+                            <a href="add-product.html">
+                                <li>More products</li>
+                            </a>
+                            <a href="#">
+                                <li>Order</li>
+                            </a>
+                            <a href="edit_product.html">
+                                <li>Edit product</li>
+                            </a>
+                        </ul>
+                    </span>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fab fa-facebook-messenger"></i>Account</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-store"></i>Sales at the shop</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-cart-arrow-down"></i>E-commerce site</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="analysis.html">
+                        <span class="title"><i class="fas fa-chart-line"></i>Analysis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-envelope"></i>Email</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topnav">
+                <div class="toggle"><i class="fas fa-bars"></i></div>
+                <div class="search">
+                    <label for="">
+                        <input type="text " placeholder="Tìm kiếm tại đây">
+                        <i class="fas fa-search"></i>
+                    </label>
+                </div>
+                <div class="user d-flex align-items-center justify-content-between">
+                    <div class="user_img">
+                        <img src="/img/michon.jpg" alt="">
+                    </div>
+                    <div class="info mr-2">tien@123</div>
+                </div>
+            </div>
+            <div class="main_body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 col-sm-6 col-12 mt-3">
+                            <div class="card-body card-pro">
+                                <div class="d-flex align-items-center justify-content-around mb-4">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <div>
+                                        <h4>Revenue</h4>
+                                        <h5>$200,000</h5>
+                                    </div>
+    
+                                </div>
+                                <div class="progress mb-4" style="height: 15px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width: 20%;">20%</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-around mt-2 up">
+                                    <p style="margin: 0;">Growth</p>
+                                    <p style="margin: 0;">Up 5,2% <i class="fas fa-long-arrow-alt-up"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 col-12 mt-3">
+                            <div class="card-body card-pro">
+                                <div class="d-flex align-items-center justify-content-around mb-4">
+                                    <i class="fas fa-eye"></i>
+                                    <div>
+                                        <h4>Old customer</h4>
+                                        <h5>3000</h5>
+                                    </div>
+    
+                                </div>
+                                <div class="progress mb-4" style="height: 15px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width: 80%;">80%</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-around mt-2 up">
+                                    <p style="margin: 0;">Growth</p>
+                                    <p style="margin: 0;">Up 4% <i class="fas fa-long-arrow-alt-up"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 col-12 mt-3">
+                            <div class="card-body card-pro">
+                                <div class="d-flex align-items-center justify-content-around mb-4">
+                                    <i class="fas fa-file-alt"></i>
+                                    <div>
+                                        <h4>Order</h4>
+                                        <h5>5300</h5>
+                                    </div>
+    
+                                </div>
+                                <div class="progress mb-4" style="height: 15px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width: 91%;">89%</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-around mt-2 up">
+                                    <p style="margin: 0;">Growth</p>
+                                    <p style="margin: 0;">Up 5% <i class="fas fa-long-arrow-alt-up"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6 col-12 mt-3">
+                            <div class="card-body card-pro">
+                                <div class="d-flex align-items-center justify-content-around mb-4">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <div>
+                                        <h4>Customer</h4>
+                                        <h5>4000</h5>
+                                    </div>
+    
+                                </div>
+                                <div class="progress mb-4" style="height: 15px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width: 91%;">91%</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-around mt-2 up">
+                                    <p style="margin: 0;">Growth</p>
+                                    <p style="margin: 0;">Up 5,2% <i class="fas fa-long-arrow-alt-up"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="mt-5" id="chart1" style="border:  2px solid rgb(255 255 255 / 15%);"></div>
+                </div>
+                <div class="container-fluid mt-3 ">
+                    <div class="row world-map " style="margin: 0 5px;">
+                        <!-- bản đồ thế giới -->
+                        <div class="col-xl-6  col-lg-12 col-12 ">
+                            <div class="card-body p-0" style="width: 100%;">
+                                <p class="mt-2">Store sales in different countries </p>
+                                <div id="world-map" style="height: 330px;  overflow: hidden; width: 100%;"></div>
+    
+                            </div>
+    
+                        </div>
+                        <!-- bản đồ việt nam -->
+                        <div class="col-md-6 col-lg-12 col-xl-6 col-12">
+                            <table class="table-responsie world mt-3">
+                                <thead>
+                                    <tr>
+                                        <th>Country </th>
+                                        <th>Revenue</th>
+                                        <th>Order</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>USA</th>
+                                        <th>$4000</th>
+                                        <th>250</th>
+                                    </tr>
+                                    <tr>
+                                        <th>KOREA</th>
+                                        <th>$3000</th>
+                                        <th>220</th>
+                                    </tr>
+                                    <tr>
+                                        <th>THAILAND</th>
+                                        <th>$2000</th>
+                                        <th>220</th>
+                                    </tr>
+                                    <tr>
+                                        <th>RUSSIA</th>
+                                        <th>$2000</th>
+                                        <th>220</th>
+                                    </tr>
+                                    <tr>
+                                        <th>VIETNAMESE</th>
+                                        <th>$5000</th>
+                                        <th>440</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mt-3 ">
+                    <div class="row world-map " style="margin: 0 5px;">
+                        <!-- bản đồ thế giới -->
+                        <div class="col-xl-6  col-lg-12 col-12 ">
+                            <div class="card-body p-0">
+                                <p class="mt-2">Store sales in different countries </p>
+                                <div id="map" style="height: 350px;"></div>
+    
+                            </div>
+    
+                        </div>
+                        <!-- bản đồ việt nam -->
+                        <div class="col-md-6 col-lg-12 col-xl-6 col-12">
+                            <table class="table-responsie world mt-3">
+                                <thead>
+                                    <tr>
+                                        <th>Province/City </th>
+                                        <th>Revenue</th>
+                                        <th>Order</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Ho Chi Minh City</th>
+                                        <th>$4000</th>
+                                        <th>250</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Hue City</th>
+                                        <th>$3000</th>
+                                        <th>220</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Ha Noi Capital</th>
+                                        <th>$2000</th>
+                                        <th>220</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Can Tho City</th>
+                                        <th>$2000</th>
+                                        <th>220</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Da Nang City</th>
+                                        <th>$5000</th>
+                                        <th>440</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mt-3 ">
+                    <div class="row m-0">
+                        <div class="col-lg-6 col-xl-6 col-12 bd1" style=" padding: 0; border: 2px solid rgb(255 255 255 / 15%);">
+                            <div class="">
+                                <!-- Doanh thu qua các kênh -->
+                                <div id="container" class="chart"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-12 p-0 " style="border: 2px solid rgb(255 255 255 / 15%); padding-left: 5px;">
+                            <!-- Doanh thu của các team sale mang lại -->
+                            <div class="">
+                                <div id="chart4" class=" chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mt-4">
+                    <div>
+                        <div class="card-body chart">
+                            <h4 class="mb-3">Customers buy the most</h4>
+                            <hr>
+                            <div class="table-responsive mt-3">
+                                <table class="table align-middle table_user">
+                                    <thead>
+                                        <tr>
+                                            <th>User ID</th>
+                                            <th>User name</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                            <th>Country</th>
+                                            <th>Total amount purchased</th>
+                                            <th>Total amount purchased</th>
+    
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>#123</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img-user">
+                                                        <img src="/img/tientien.jpg" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <p class="m-0">Phan Ngoc Tien</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>0355211245</td>
+                                            <td>tientien@gmail.com</td>
+                                            <td>Vietnamese</td>
+                                            <td>1000$</td>
+                                            <td>25</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">#345</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img-user">
+                                                        <img src="/img/linhnhi.jpg">
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="m-0">Nguyen Thi Linh Nhi</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>0355211245</td>
+                                            <td>linhnhi@gmail.com</td>
+                                            <td>Vietnamese</td>
+                                            <td>900$</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">#201</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img-user">
+                                                        <img src="/img/ua1.jpg">
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="m-0">Nguyen Nhu Y</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>0355211123</td>
+                                            <td>nhuy@gmail.com</td>
+                                            <td>Vietnamese</td>
+                                            <td>1500$</td>
+                                            <td>30</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">#201</td>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="img-user">
+                                                        <img src="/img/michon1.jpg">
+                                                    </div>
+                                                    <div class="">
+                                                        <p class="m-0">Cho Miyeon</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>0355211123</td>
+                                            <td>michon@gmail.com</td>
+                                            <td>Korea</td>
+                                            <td>1500$</td>
+                                            <td>29</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navi = document.querySelector('.navi');
+        const main = document.querySelector('.main');
+        const subnavv = document.querySelector('.subnavv');
+        const subnav2 = document.querySelector('.subnav2');
+        toggle.onclick = () => {
+            toggle.classList.toggle('active');
+            navi.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+        subnavv.onclick = () => {
+            subnav2.classList.toggle('active');
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/apex-custom.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script src="/js/jquery-jvectormap-2.0.5.min.js"></script>
+    <script src="/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/variable-pie.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="/js/highchart.js"></script>
+    <script>
+        var tien = {
+            "US": 3000,
+            "TH": 2500,
+            "VN": 3010.99,
+            "KR": 3500,
+            "JP": 3200,
+            "RU": 2800
+
+        };
+        $('#world-map').vectorMap({
+            map: 'world_mill_en',
+            series: {
+                regions: [{
+                        values: tien,
+                        scale: ['#B0B0B2', '#E1D7CD'],
+                        normalizeFunction: 'polynomial'
+                    }
+
+                ]
+            },
+            onRegionTipShow: function(e, el, code) {
+                el.html(el.html() + ' (Doanh thu - ' + tien[code] + '$)');
+            }
+        });
+    </script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAti-tRfeSJm6wt0fWbjso-HkATuZBqR5A&callback=initMap">
+    </script>
+    <script src="/js/admin.js"></script>
+</body>
+
+</html>

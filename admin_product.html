@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>P229 Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/imageuploadify.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="bg-main">
+    <div class="containerr">
+        <div class="navi">
+            <ul class="">
+                <a href="index.html" style="text-decoration: none;">
+                    <li style="margin: 0;border-bottom: 1px solid rgb(255 255 255 / 15%) ;">
+                        <span style="display: flex;" class="title"><i style="line-height: 45.488px;" class="fas fa-dumbbell"></i><h2>P229 SHOP</h2></span>
+                    </li>
+                </a>
+                <li>
+                    <a href="admin.html">
+                        <span class="title"><i class="fas fa-home"></i>Home page</span>
+                    </a>
+                </li>
+                <li>   
+                        <span  class="title subnavv"><i class="fas fa-shopping-cart"></i>Product<i style="margin-left: 100px;" class="fas fa-chevron-down"></i>
+                            <ul class="subnav2">
+                                <a href="admin_product.html">
+                                    <li>Product</li>
+                                </a>
+                                <a href="product_details.html">
+                                    <li>Product details</li> 
+                                </a>
+                                <a href="add-product.html">
+                                    <li>More products</li>
+                                </a>
+                                <a href="#">
+                                    <li>Order</li>
+                                </a>
+                                <a href="edit_product.html">
+                                    <li>Edit product</li>
+                                </a>
+                            </ul>
+                        </span>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fab fa-facebook-messenger"></i>Account</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-store"></i>Sales at the shop</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-cart-arrow-down"></i>E-commerce site</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="analysis.html">
+                        <span class="title"><i class="fas fa-chart-line"></i>Analysis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-envelope"></i>Email</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topnav">
+                <div class="toggle"><i class="fas fa-bars"></i></div>
+                <div class="search">
+                    <label for="">
+                        <input type="text " placeholder="Tìm kiếm tại đây">
+                        <i class="fas fa-search"></i>
+                    </label>
+                </div>
+                <div class="user d-flex align-items-center justify-content-between">
+                    <div class="user_img">
+                        <img src="/img/michon.jpg" alt="">
+                    </div>
+                    <div class="info mr-2">tien@123</div>
+                </div>
+            </div>
+            <section id="content"> 
+                <div class="container-fluid">
+                    <h1 class="text-center mt-5 mb-5 text-white ">Products of the shop</h1>
+                    <div class="toolbar">
+                        <nav class="navbar navbar-expand-xl ">
+                            <a class="navbar-brand" href="add-product.html">
+                                <i class="fas fa-plus mr-3"></i>Add Product
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="navbar-nav ml-auto">
+                                    <form style="position: relative; border: 1px dashed rgb(255 255 255 / 20%) !important; background: rgb(0 0 0 / 15%); padding: 0 10px;" class="form-inline my-2 my-lg-0 ">
+                                      <input class="form-control " type="search" placeholder="Search product" aria-label="Search">
+                                      <button  class="fas fa-search" type="submit"></button>
+                                    </form>
+                                    <form action="" class="form-inline ">
+                                      <div class="form-group sort_p">
+                                          <div class="place_sort d-flex justify-content-between w-100"><p class="m-0">Sort</p><i class="fas fa-sort-down"></i></div>
+                                          <div class="option_sort"  aria-multiline="true">
+                                              <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p class="m-0">Highest price</p></span>
+                                              <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p class="m-0">Buy the most</p></span>
+                                          </div>
+                                      </div>
+                                      <div class="form-group sort_p">
+                                          <div class="place_sort d-flex justify-content-between w-100" ><input type="submit" value="Confirm" style="background: none; border: none; color: #fff;"><i class="fas fa-filter"></i></div>
+                                      </div>
+                                    </form>
+                                </div>
+                            </div>
+                          </nav>
+                    </div>
+                    <div class="table-responsive mt-3 p-3" style="border: 1px solid rgb(255 255 255 / 15%); background-color: rgb(0 0 0 / 20%); height: 500px;">
+                        <table class="table1 align-middle table_user" style="overflow: auto;">
+                            <thead>
+                                <tr>
+                                    <th>ID product</th>
+                                    <th>Product name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Image product</th>
+                                    <th>Admin</th>
+                                    <th>Brand</th>
+                                    <th>Sectors</th>
+                                    <th>Discount</th>
+                                    <th>Exchange</th>
+                                    <th>Date Submitted</th>
+                                    <th>Color</th>
+                                    <th>Size</th>
+                                    <th>Number of purchases</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#1</td>
+                                    <td>Giày adidas
+                                    </td>
+                                    <td>1500000đ</td>
+                                    <td>6</td>
+                                    <td class="d-flex img_p">
+                                        <span>
+                                            <img src="/img/shoe1.png" alt="">
+                                        </span>
+                                        <span>
+                                            <img src="/img/shoe2.png" alt="">
+                                        </span>
+                                        <span>
+                                            <img src="/img/shoe3.png" alt="">
+                                        </span>
+                                    </td>
+                                    <td>tien@gmail.com</td>
+                                    <td>Adidas</td>
+                                    <td>Mới</td>
+                                    <td>1000000đ</td>
+                                    <td>6 <i class="fas fa-star" style="color: #fd4;"></i></td>
+                                    <td>14/06/2021 09:22:25</td>
+                                    <td class="d-flex img_p">
+                                        <span>
+                                            <img src="/img/shoe1.png" alt="">
+                                        </span>
+                                        <span>
+                                            <img src="/img/shoe2.png" alt="">
+                                        </span>
+                                        <span>
+                                            <img src="/img/shoe3.png" alt="">
+                                        </span>
+                                        <span>
+                                            <img src="/img/shoe4.png" alt="">
+                                        </span>
+                                        <span>
+                                            <img src="/img/shoe5.png" alt="">
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>43</span>
+                                        <span>42</span>
+                                    </td>
+                                    <td>0</td>
+                                    <td><i class="far fa-edit"></i></td>
+                                    <td><i class="far fa-trash-alt"></i></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+         </div>
+    </div>
+    <!-- <form action="" method="post" enctype="multipart/form-data">
+        <input id="image-uploadify" type="file" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" multiple="">
+        <input class="up_img" type="submit" value="Thêm">
+    </form> -->
+    <script>
+        const place_sort = document.querySelector('.place_sort'),
+        option_sort = document.querySelector('.option_sort');
+        
+        place_sort.onclick = () => {
+            option_sort.classList.toggle('active');
+        }
+    </script>
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navi = document.querySelector('.navi');
+        const main = document.querySelector('.main');
+        const subnavv = document.querySelector('.subnavv');
+        const subnav2 = document.querySelector('.subnav2');
+        const s_d_b = document.querySelector('.s_d_b');
+        const input_sizes = document.querySelector('.input_sizes');
+        const input_brand = document.querySelector('.input_brand');
+        const b_d_b = document.querySelector('.b_d_b');
+        toggle.onclick = () => {
+            toggle.classList.toggle('active');
+            navi.classList.toggle('active');
+            main.classList.toggle('active');
+        };
+        subnavv.onclick = () => {
+            subnav2.classList.toggle('active');
+        };
+        input_sizes.onclick = () => {
+            input_sizes.classList.toggle('active');
+            s_d_b.classList.toggle('active')
+        };
+        input_brand.onclick = () => {
+            input_brand.classList.toggle('active');
+            b_d_b.classList.toggle('active')
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="/ckeditor/ckeditor.js"></script>
+    <script >
+        CKEDITOR.replace('description');
+    </script>
+    <script src="/js/imageuploadify.min.js"></script>
+    <script>
+		$(document).ready(function () {
+			$('#image-uploadify').imageuploadify();
+		})
+	</script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

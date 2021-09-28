@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>P229 Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/imageuploadify.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="bg-main">
+    <div class="containerr">
+        <div class="navi">
+            <ul class="">
+                <a href="index.html" style="text-decoration: none;">
+                    <li style="margin: 0;border-bottom: 1px solid rgb(255 255 255 / 15%) ;">
+                        <span style="display: flex;" class="title"><i style="line-height: 45.488px;" class="fas fa-dumbbell"></i><h2>P229 SHOP</h2></span>
+                    </li>
+                </a>
+                <li>
+                    <a href="admin.html">
+                        <span class="title"><i class="fas fa-home"></i>Home page</span>
+                    </a>
+                </li>
+                <li>   
+                        <span  class="title subnavv"><i class="fas fa-shopping-cart"></i>Product<i style="margin-left: 100px;" class="fas fa-chevron-down"></i>
+                            <ul class="subnav2">
+                                <a href="admin_product.html">
+                                    <li>Product</li>
+                                </a>
+                                <a href="product_details.html">
+                                    <li>Product details</li> 
+                                </a>
+                                <a href="add-product.html">
+                                    <li>More products</li>
+                                </a>
+                                <a href="#">
+                                    <li>Order</li>
+                                </a>
+                                <a href="edit_product.html">
+                                    <li>Edit product</li>
+                                </a>
+                            </ul>
+                        </span>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fab fa-facebook-messenger"></i>Account</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-store"></i>Sales at the shop</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-cart-arrow-down"></i>E-commerce site</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="analysis.html">
+                        <span class="title"><i class="fas fa-chart-line"></i>Analysis</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="title"><i class="fas fa-envelope"></i>Email</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topnav">
+                <div class="toggle"><i class="fas fa-bars"></i></div>
+                <div class="search">
+                    <label for="">
+                        <input type="text " placeholder="Tìm kiếm tại đây">
+                        <i class="fas fa-search"></i>
+                    </label>
+                </div>
+                <div class="user d-flex align-items-center justify-content-between">
+                    <div class="user_img">
+                        <img src="/img/michon.jpg" alt="">
+                    </div>
+                    <div class="info mr-2">tien@123</div>
+                </div>
+            </div>
+            <div class="form-add container-fluid">
+                <h1 class="text-center mt-5 mb-5 text-white ">Add Product +</h1>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h3 class="text-center mt-5 mb-5 text-white">Add the other image of another product</h3>
+                        <form action="" method="post" class="p-2">
+                            <input id="image-uploadify" type="file" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" multiple="">
+                            <input class="up_img" type="submit" value="Add">
+                        </form>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h3 class="text-center mt-5 mb-5 text-white ">Add other image of product</h3>
+                        <form action="" method="post" class="p-2">
+                            
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <div class="d-flex justify-content-between">
+                                    <div class="form-group w-100">
+                                        <label for="">ID Image</label>
+                                        <input type="text" name="" >
+                                    </div>
+                                    <button type="button" class="fas fa-eye" style="height: 20px; background: none ; color: #fff; border: none; font-size: 25px;" data-toggle="modal" data-target="#staticBackdrop">
+                                        
+                                    </button>
+                                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
+                                          <div class="modal-content modal-xl" style="width: 100%;">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="staticBackdropLabel">Image of product</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="table-responsive mt-3 p-3" style="border: 1px solid rgb(255 255 255 / 15%); background-color: rgb(0 0 0 / 20%); height: 500px;">
+                                                    <table class="table1 align-middle table_user tb_img" style="overflow: auto;">
+                                                        <thead class="w-100">
+                                                            <tr>
+                                                                <th>ID Product</th>
+                                                                <th>Product Name</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>#1</td>
+                                                                <td class="d-flex img_p">
+                                                                    <span>
+                                                                        <img src="/img/shoe1.png" alt="">
+                                                                    </span>
+                                                                    <span>
+                                                                        <img src="/img/shoe2.png" alt="">
+                                                                    </span>
+                                                                    <span>
+                                                                        <img src="/img/shoe3.png" alt="">
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Image 1</label>
+                                    <input type="file" name="file1">
+                                </div>
+                                <div class="form-group">
+                                    <label>Image 2</label>
+                                    <input type="file" name="file2">
+                                </div>
+                                <div class="form-group">
+                                    <label>Image 3</label>
+                                    <input type="file" name="file3">
+                                </div>
+                            </form>
+                        </form>
+                    </div>
+                </div>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="form-row">
+                        <div class="col-md-6 p-4">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="">ID Product</label>
+                                    <input type="text" name="id" value="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="">Product Name</label>
+                                    <input type="text" name="productname" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Product Description</label>
+                                <textarea name="description" id="description" ></textarea>
+                            </div>
+                            <div class="form-group place_product_img">
+                                <label for="">Product pictures</label>
+								<div class="form-group d-flex w-100 flex-wrap" style="white-space: normal;">
+                                    <span  class="add_img"><input  type="checkbox"><img src="/img/shoe1.png" alt=""></span>
+                                    <span  class="add_img"><input type="checkbox"><img src="/img/shoe2.png" alt=""></span>
+                                    <span  class="add_img"><input type="checkbox"><img src="/img/shoe3.png" alt=""></span>
+                                    <span  class="add_img"><input type="checkbox"><img src="/img/shoe4.png" alt=""></span>
+                                    <span  class="add_img"><input type="checkbox"><img src="/img/shoe5.png" alt=""></span>
+                                    <span  class="add_img"><input type="checkbox"><img src="/img/Nike Air Vapormax.png" alt=""></span>
+                                    <span  class="add_img"><input type="checkbox"><img src="/img/Nike Air Vapormax1.png" alt=""></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-4">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="">Price </label>
+                                    <input type="text" name="price">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="">Discount</label>
+                                    <input type="text" name="discount" >
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="">Brand</label>
+                                    <div class="size size_t" aria-multiline="true">
+                                        <div class="input_brand input_size">Choose a brand<i class="fas fa-sort-down"></i></div>
+                                        <div class="b_d_b d_b" style="display: none;" aria-multiline="true">
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>Adidas</p></span>
+                                               
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="">Quantity</label>
+                                    <input type="text" name="amount" >
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="">Exchange</label>
+                                    <input type="text" name="star" >
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="">Title</label>
+                                    <input type="text" name="star" >
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="">Choose your size here</label>
+                                    <div class="size size_t" aria-multiline="true">
+                                        <div class="input_sizes input_size">Choose size<i class="fas fa-sort-down"></i></div>
+                                        <div class="s_d_b d_b" style="display: none;" aria-multiline="true">
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>43</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>42</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>41</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>40</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>39</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>38</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>37</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>36</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>35</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>Xl</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>XLL</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>M</p></span>
+                                            <span class="d-flex align-items-center justify-content-between"><input type="checkbox"><p>L</p></span>     
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <input class="submit mt-5" type="submit"  value="Upload">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- <form action="" method="post" enctype="multipart/form-data">
+        <input id="image-uploadify" type="file" accept=".xlsx,.xls,image/*,.doc,audio/*,.docx,video/*,.ppt,.pptx,.txt,.pdf" multiple="">
+        <input class="up_img" type="submit" value="Thêm">
+    </form> -->
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navi = document.querySelector('.navi');
+        const main = document.querySelector('.main');
+        const subnavv = document.querySelector('.subnavv');
+        const subnav2 = document.querySelector('.subnav2');
+        const s_d_b = document.querySelector('.s_d_b');
+        const input_sizes = document.querySelector('.input_sizes');
+        const input_brand = document.querySelector('.input_brand');
+        const b_d_b = document.querySelector('.b_d_b');
+        toggle.onclick = () => {
+            toggle.classList.toggle('active');
+            navi.classList.toggle('active');
+            main.classList.toggle('active');
+        };
+        subnavv.onclick = () => {
+            subnav2.classList.toggle('active');
+        };
+        input_sizes.onclick = () => {
+            input_sizes.classList.toggle('active');
+            s_d_b.classList.toggle('active')
+        };
+        input_brand.onclick = () => {
+            input_brand.classList.toggle('active');
+            b_d_b.classList.toggle('active')
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="/ckeditor/ckeditor.js"></script>
+    <script >
+        CKEDITOR.replace('description');
+    </script>
+    <script src="/js/imageuploadify.min.js"></script>
+    <script>
+		$(document).ready(function () {
+			$('#image-uploadify').imageuploadify();
+		})
+	</script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

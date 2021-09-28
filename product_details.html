@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/css/lightslider.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/jquery-jvectormap-2.0.5.css">
+    <link rel="stylesheet" href="/css/highcharts-white.css">
+    <link rel="stylesheet" href="/css/trangchu.css">
+    <link rel="stylesheet" href="/css/sanpham.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="bg-main">
+    <div class="containerr">
+        <div class="navi">
+          <ul class="">
+            <a href="index.html" style="text-decoration: none;">
+                <li style="margin: 0;border-bottom: 1px solid rgb(255 255 255 / 15%) ;">
+                    <span style="display: flex;" class="title"><i style="line-height: 45.488px;" class="fas fa-dumbbell"></i><h2>P229 SHOP</h2></span>
+                </li>
+            </a>
+            <li>
+                <a href="admin.html">
+                    <span class="title"><i class="fas fa-home"></i>Home page</span>
+                </a>
+            </li>
+            <li>   
+                    <span  class="title subnavv"><i class="fas fa-shopping-cart"></i>Product<i style="margin-left: 100px;" class="fas fa-chevron-down"></i>
+                        <ul class="subnav2">
+                            <a href="admin_product.html">
+                                <li>Product</li>
+                            </a>
+                            <a href="product_details.html">
+                                <li>Product details</li> 
+                            </a>
+                            <a href="add-product.html">
+                                <li>More products</li>
+                            </a>
+                            <a href="#">
+                                <li>Order</li>
+                            </a>
+                            <a href="edit_product.html">
+                                <li>Edit product</li>
+                            </a>
+                        </ul>
+                    </span>
+            </li>
+            <li>
+                <a href="">
+                    <span class="title"><i class="fab fa-facebook-messenger"></i>Account</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="title"><i class="fas fa-store"></i>Sales at the shop</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="title"><i class="fas fa-cart-arrow-down"></i>E-commerce site</span>
+                </a>
+            </li>
+            <li>
+                <a href="analysis.html">
+                    <span class="title"><i class="fas fa-chart-line"></i>Analysis</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="title"><i class="fas fa-envelope"></i>Email</span>
+                </a>
+            </li>
+          </ul>
+        </div>
+        <div class="main">
+            <div class="topnav">
+                <div class="toggle"><i class="fas fa-bars"></i></div>
+                <div class="search">
+                    <label for="">
+                        <input type="text " placeholder="Tìm kiếm tại đây">
+                        <i class="fas fa-search"></i>
+                    </label>
+                </div>
+                <div class="user d-flex align-items-center justify-content-between">
+                    <div class="user_img">
+                        <img src="/img/michon.jpg" alt="">
+                    </div>
+                    <div class="info mr-2">tien@123</div>
+                </div>
+            </div>
+            <div class="container-fluid">
+              <div class="product">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img image">
+                            <img  src="/img/Nike Air Vapormax.png" alt="" class="p1">
+                        </div>
+                        <div class="orther-img" style="display: flex;">
+                            <span  class="p image"><img  src="/img/Nike Air Vapormax1.png" alt=""></span>
+                            <span class="p image"><img  src="/img/Nike Air Vapormax2.png" alt=""></span>
+                            <span class="p image"><img  src="/img/Nike Air Vapormax3.png" alt=""></span>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="info-product">
+                            <h1 class="title-heading">Nike Air Vapormax</h1>
+                            <div class="price">300$</div>
+                            <div class="size" style="background: none;">Size: 
+                                <span><input type="radio" name="size" id="">43</span>
+                                <span><input type="radio" name="size" id="">42</span>
+                                <span><input type="radio" name="size" id="">41</span>
+                                <span><input type="radio" name="size" id="">40</span>
+          
+                            </div>
+                            <h3 class="mt-3 text-light">Other products:</h3>
+                            <div class="product-orther">
+                                <span  class="p1a img_orther_product"><img class="" src="/img/Nike Air Vapormax.png" alt=""></span>
+                                <span class="p1b img_orther_product"><img class="" src="/img/Nike Air Vapormax1.png" alt=""></span>
+                            </div>
+                            <div class="amount">
+                              <button class="down" style="background: none; font-size: 25px;" onclick="down()">-</button><input type="text" id="amount" value="1" style="border: none;"><button style="background:none !important; font-size: 25px; color: #fff;" onclick="up()">+</button>
+                           </div>
+                            <button class="btn btn-add"><p>Add to cart</p></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="review-product" >
+                <div class="review-nav">
+                  <span class="title" style="margin-left: 10px;">Ảnh  <p class="current-img" style="margin: 0px 10px;"></p> của <p class="total-img" style="margin-left: 10px;"></p></span>
+                  <span style="cursor: pointer;" class="icon fas fa-times"></span>
+                </div>
+                <div class="change">
+                  <div class="slide1 prev"><i class="fas fa-angle-left"></i></div>
+                  <div class="slide1 next"><i class="fas fa-angle-right"></i></div>
+                  <img src="img/shoe1.png" alt="">
+                </div>
+              </div>
+              <div class="popup"></div>
+              <div class="description ml-2">
+                <h3>Product Description:</h3>
+                <ul class="descr">
+                  <li>Breathable material, helps the user to breathe freely</li>
+                  <li>With a compact structure, beautiful shape suitable for gym and jogging</li>
+                 </ul>
+              </div>
+              <div class="quyenloi ml-2">
+                <h3>Interest: </h3>
+                <ul class="descr">
+                  <li>Tested before receiving the goods</li>
+                  <li>100% genuine guarantee</li>
+                  <li>Refunds when the item is defective</li>
+                </ul>
+              </div>
+              <div class="sanphamtt">
+                <div class="container-fluid text-center" >
+                  <ul class="autoWidth" class="cs-hidden">
+                    <li class="item-a">		
+                      <div class="box">
+                        <img class="model p2 img_product" src="img/aogym1.png">
+                        <div class="content-product">
+                          <h3 class="title">Gym Shirt </h3>
+                          <div class="price"><span class="pricee">100</span>$ - <span>98$</span></div>
+                          <div class="content-color" >
+                            <span  class="p2a"><img class="" src="/img/aogym1.png" alt=""></span>
+                            <span class="p2b"><img class="" src="/img/aogym2.png" alt=""></span>
+                          </div>
+                        </div>
+                        <a href="product.html" class="fas fa-eye" ></a>
+                        <button class="btn btn_add_pro">Add to cart</button>
+                      </div>
+                    </li>
+                    <li class="item-a">		
+                      <div class="box">
+                        <img class="model p3 img_product" src="img/quan-jogger-nam-360s-lx-den-1-600x656-removebg-preview.png">
+                        <div class="content-product">
+                          <h3 class="title">Jogger </h3>
+                          <div class="price"><span class="pricee">100</span>$ - <span>98$</span></div>
+                          <div class="content-color" >
+                            <span  class="p3a"><img class="" src="/img/quan-jogger-nam-360s-lx-den-1-600x656-removebg-preview.png" alt=""></span>
+                            <span class="p3b"><img class="" src="/img/quan-jogger-nam-360s-lx-xanh-3-600x656-removebg-preview.png" alt=""></span>
+                          </div>
+                        </div>
+                        <a href="product.html" class="fas fa-eye" ></a>
+                        <button class="btn btn_add_pro">Add to cart</button>
+                      </div>
+                    </li>
+                    <li class="item-a">		
+                      <div class="box">
+                        <img class="model p4 img_product" src="img/NikeJordanProtoMax-removebg-preview.png">
+                        <div class="content-product">
+                          <h3 class="title">Nike Jordan </h3>
+                          <div class="price"><span class="pricee">100</span>$ - <span>98$</span></div>
+                          <div class="content-color" >
+                            <span  class="p4a"><img class="" src="/img/NikeJordanProtoMax-removebg-preview.png" alt=""></span>
+                            <span class="p4b"><img class="" src="/img/Nike_Jordan_Proto_Max1-removebg-preview.png" alt=""></span>
+                          </div>
+                        </div>
+                        <a href="product.html" class="fas fa-eye" ></a>
+                        <button class="btn btn_add_pro">Add to cart</button>
+                      </div>
+                    </li>
+                    <li class="item-a">		
+                      <div class="box">
+                        <img class="model p5 img_product" src="img/sua1.png">
+                        <div class="content-product">
+                          <h3 class="title">Recoverite </h3>
+                          <div class="price"><span class="pricee">100</span>$ - <span>98$</span></div>
+                          <div class="content-color" >
+                            <span  class="p5a"><img class="" src="/img/sua1.png" alt=""></span>
+                            <span class="p5b"><img class="" src="/img/sua2.png" alt=""></span>
+                            <span class="p5c"><img class="" src="/img/sua3.png" alt=""></span>
+                          </div>
+                        </div>
+                        <a href="product.html" class="fas fa-eye" ></a>
+                        <button class="btn btn_add_pro">Add to cart</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navi = document.querySelector('.navi');
+        const main = document.querySelector('.main');
+        const subnavv = document.querySelector('.subnavv');
+        const subnav2 = document.querySelector('.subnav2');
+        toggle.onclick = () => {
+            toggle.classList.toggle('active');
+            navi.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+        subnavv.onclick = () => {
+            subnav2.classList.toggle('active');
+        }
+    </script>
+    <script>
+        function up() {
+          var amount = document.getElementById("amount").value;
+          amount = parseInt(amount);
+          document.getElementById("amount").value = amount + 1;
+        }
+        function down() {
+          var amount = document.getElementById("amount").value;
+          amount = parseInt(amount);
+          if(amount > 0) {
+            document.getElementById("amount").value = amount -1;
+          }
+          else {
+            document.getElementById("amount").value = amount;
+          }
+        }
+      </script>
+      <script>
+        $(document).ready(function(){
+          $('.p1a').click(function(){
+            $(this).parents('div').find('img.p1').attr('src', "/img/Nike Air Vapormax.png")
+          })
+          $('.p1b').click(function(){
+            $(this).parents('div').find('img.p1').attr('src', "/img/Nike Air Vapormax1.png")
+          })
+          $('.p2a').click(function(){
+            $(this).parents('li').find('img.p2').attr('src', "/img/aogym1.png")
+          })
+          $('.p2b').click(function(){
+            $(this).parents('li').find('img.p2').attr('src', "/img/aogym2.png")
+          })
+          $('.p3a').click(function(){
+            $(this).parents('li').find('img.p3').attr('src', "/img/quan-jogger-nam-360s-lx-den-1-600x656-removebg-preview.png")
+          })
+          $('.p3b').click(function(){
+            $(this).parents('li').find('img.p3').attr('src', "/img/quan-jogger-nam-360s-lx-xanh-3-600x656-removebg-preview.png")
+          })
+          $('.p4a').click(function(){
+            $(this).parents('li').find('img.p4').attr('src', "/img/NikeJordanProtoMax-removebg-preview.png")
+          })
+          $('.p4b').click(function(){
+            $(this).parents('li').find('img.p4').attr('src', "/img/Nike_Jordan_Proto_Max1-removebg-preview.png")
+          })
+          $('.p5a').click(function(){
+            $(this).parents('li').find('img.p5').attr('src', "/img/sua1.png")
+          })
+          $('.p5b').click(function(){
+            $(this).parents('li').find('img.p5').attr('src', "/img/sua2.png")
+          })
+          $('.p5c').click(function(){
+            $(this).parents('li').find('img.p5').attr('src', "/img/sua3.png")
+          })
+        });
+  
+      </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/apex-custom.js"></script>
+    <script src="js/apexcharts.min.js"></script>
+    <script src="/js/jquery-jvectormap-2.0.5.min.js"></script>
+    <script src="/js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/variable-pie.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="/js/highchart.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAti-tRfeSJm6wt0fWbjso-HkATuZBqR5A&callback=initMap">
+    </script> 
+    <script src="/js/admin.js"></script>
+    <script src="/js/review.js"></script> 
+    <script src="/main.js"></script> 
+    <script src="/js/JQuery3.3.1.js"></script>
+    <script src="/js/lightslider.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/review.js"></script>
+  </body>
+</html>
